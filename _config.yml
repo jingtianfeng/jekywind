@@ -9,6 +9,11 @@ exclude:
   - .gitignore
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - postcss.config.js
+  - tailwind.config.js
 
 title: Jekywind
 tagline: SSG made simple

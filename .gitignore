@@ -4,3 +4,6 @@ _site/
 .jekyll-metadata
 .idea/
 Gemfile.lock
+node_modules/
+package-lock.json
+assets/css/styles.css
