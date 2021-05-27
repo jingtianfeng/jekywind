@@ -1,5 +1,23 @@
 <footer>
     <div class="container">
-        footer
+        <div class="col-span-full text-sm">
+            <p>
+                © {{ site.time | date: "%Y" }} {{ site.author }}. All rights reserved.
+            </p>
+            <div class="mt-2">
+                <a class="ml-2"
+                   href="{{ '/privacy' | relative_url }}">
+                    Privacy
+                </a>
+                <a class="ml-3"
+                   href="{{ '/terms' | relative_url }}">
+                    Terms
+                </a>
+                <a class="ml-3"
+                   href="{{ '/disclaimer' | relative_url }}">
+                    Disclaimer
+                </a>
+            </div>
+        </div>
     </div>
 </footer>
