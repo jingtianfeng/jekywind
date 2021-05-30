@@ -1,5 +1,49 @@
-<nav>
-    <div class="container">
-        nav top
+<nav id="nav-top"
+     class="min-h-5 py-0 px-3 md:px-4 lg:px-5 bg-gray-3">
+    <div id="nav-top__container"
+         class="container grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 items-center">
+        <img id="nav-top__container__logo"
+             class="h-5 w-auto py-2 col-start-1 col-end-2"
+             src="{{ 'assets/img/logo.png' | relative_url }}" alt="logo"
+             height="80px" width="50px">
+        <svg id="nav-top__container__menutoggle"
+             class="py-1 fill-current text-gray-d col-start-2 col-end-3 justify-self-end md:hidden"
+             aria-label="burger"
+             viewBox="0 0 40 40" height="40" width="40" xmlns="http://www.w3.org/2000/svg">
+            <g transform="matrix(4,0,0,4,0,0)">
+                <path d="M3.750 8.750 A1.250 1.250 0 1 0 6.250 8.750 A1.250 1.250 0 1 0 3.750 8.750 Z"
+                      stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"></path>
+                <path d="M3.750 5.000 A1.250 1.250 0 1 0 6.250 5.000 A1.250 1.250 0 1 0 3.750 5.000 Z"
+                      stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"></path>
+                <path d="M3.750 1.250 A1.250 1.250 0 1 0 6.250 1.250 A1.250 1.250 0 1 0 3.750 1.250 Z"
+                      stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"></path>
+            </g>
+        </svg>
+        <div id="nav-top__container__menu"
+             class="hidden py-3 text-gray-e font-semibold
+                    col-start-1 col-end-3 row-start-2 row-end-3
+                    md:flex md:justify-self-end md:col-start-2 md:col-end-5 md:row-start-1 md:row-end-2
+                    lg:col-end-8">
+            <a class="block mt-0"
+               href="{{ '/' | relative_url }}">
+                Home
+            </a>
+            <a class="block mt-2 md:mt-0 md:ml-4"
+               href="{{ '/about' | relative_url }}">
+                About
+            </a>
+            <a class="block mt-2 md:mt-0 md:ml-4"
+               href="{{ '/contact' | relative_url }}">
+                Contact
+            </a>
+        </div>
     </div>
+    <script>
+        const navTopMenutoggle = document.getElementById('nav-top__container__menutoggle')
+        const navTopMenu = document.getElementById('nav-top__container__menu')
+        navTopMenutoggle.addEventListener('click', () => {
+            navTopMenutoggle.classList.toggle('text-gray-f')
+            navTopMenu.classList.toggle('hidden')
+        })
+    </script>
 </nav>
