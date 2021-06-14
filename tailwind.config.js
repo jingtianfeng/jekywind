@@ -31,19 +31,19 @@ module.exports = {
                 letterSpacing: '0.0125em',
                 lineHeight: '2rem',
             }],
-            'lg': ['1.625rem', {
+            'xl': ['1.625rem', {
                 letterSpacing: '0em',
                 lineHeight: '2.625rem',
             }],
-            'xl': ['2.625rem', {
+            '2xl': ['2.625rem', {
                 letterSpacing: '-0.0125em',
                 lineHeight: '3.625rem',
             }],
-            '2xl': ['4.25rem', {
+            '3xl': ['4.25rem', {
                 letterSpacing: '-0.025em',
                 lineHeight: '5.25rem',
             }],
-            '3xl': ['6.875rem', {
+            '4xl': ['6.875rem', {
                 letterSpacing: '-0.0375em',
                 lineHeight: '8.875rem',
             }],
