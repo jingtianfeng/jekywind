@@ -5515,7 +5515,7 @@ body > header > .container, body > section > .container, body > footer > .contai
 
 .text-base {
   font-size: 1rem;
-  line-height: 2rem;
+  line-height: 1.625rem;
   letter-spacing: 0.0125em;
 }
 
@@ -19429,7 +19429,7 @@ body > header > .container, body > section > .container, body > footer > .contai
 
   .md\:text-base {
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 1.625rem;
     letter-spacing: 0.0125em;
   }
 
@@ -33173,7 +33173,7 @@ body > header > .container, body > section > .container, body > footer > .contai
 
   .lg\:text-base {
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 1.625rem;
     letter-spacing: 0.0125em;
   }
 

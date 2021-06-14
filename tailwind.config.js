@@ -29,7 +29,7 @@ module.exports = {
             }],
             'base': ['1rem', {
                 letterSpacing: '0.0125em',
-                lineHeight: '2rem',
+                lineHeight: '1.625rem',
             }],
             'lg': ['1.125rem', {
                 letterSpacing: '0.01em',
