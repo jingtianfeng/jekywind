@@ -5519,6 +5519,12 @@ body > header > .container, body > section > .container, body > footer > .contai
   letter-spacing: 0.0125em;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 2.125rem;
+  letter-spacing: 0.01em;
+}
+
 .text-xl {
   font-size: 1.625rem;
   line-height: 2.625rem;
@@ -19427,6 +19433,12 @@ body > header > .container, body > section > .container, body > footer > .contai
     letter-spacing: 0.0125em;
   }
 
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 2.125rem;
+    letter-spacing: 0.01em;
+  }
+
   .md\:text-xl {
     font-size: 1.625rem;
     line-height: 2.625rem;
@@ -33163,6 +33175,12 @@ body > header > .container, body > section > .container, body > footer > .contai
     font-size: 1rem;
     line-height: 2rem;
     letter-spacing: 0.0125em;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 2.125rem;
+    letter-spacing: 0.01em;
   }
 
   .lg\:text-xl {

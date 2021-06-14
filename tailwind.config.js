@@ -31,6 +31,10 @@ module.exports = {
                 letterSpacing: '0.0125em',
                 lineHeight: '2rem',
             }],
+            'lg': ['1.125rem', {
+                letterSpacing: '0.01em',
+                lineHeight: '2.125rem',
+            }],
             'xl': ['1.625rem', {
                 letterSpacing: '0em',
                 lineHeight: '2.625rem',
