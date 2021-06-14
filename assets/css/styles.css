@@ -5508,9 +5508,9 @@ body > header > .container, body > section > .container, body > footer > .contai
 }
 
 .text-sm {
-  font-size: 0.75rem;
-  line-height: 1.25rem;
-  letter-spacing: 0.025em;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  letter-spacing: 0.02em;
 }
 
 .text-base {
@@ -19416,9 +19416,9 @@ body > header > .container, body > section > .container, body > footer > .contai
   }
 
   .md\:text-sm {
-    font-size: 0.75rem;
-    line-height: 1.25rem;
-    letter-spacing: 0.025em;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    letter-spacing: 0.02em;
   }
 
   .md\:text-base {
@@ -33154,9 +33154,9 @@ body > header > .container, body > section > .container, body > footer > .contai
   }
 
   .lg\:text-sm {
-    font-size: 0.75rem;
-    line-height: 1.25rem;
-    letter-spacing: 0.025em;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    letter-spacing: 0.02em;
   }
 
   .lg\:text-base {

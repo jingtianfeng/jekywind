@@ -23,9 +23,9 @@ module.exports = {
             'sans': ['Inter', 'Helvetica', 'sans-serif'],
         },
         fontSize: {
-            'sm': ['0.75rem', {
-                letterSpacing: '0.025em',
-                lineHeight: '1.25rem',
+            'sm': ['0.875rem', {
+                letterSpacing: '0.02em',
+                lineHeight: '1.375rem',
             }],
             'base': ['1rem', {
                 letterSpacing: '0.0125em',
